@@ -1,0 +1,31 @@
+Dear Ujjal,
+please make following changes in billing system:
+a. Bill Printing - please omit district ( of customer ) from bill print
+
+b. 2 reports needed - yearly biilling summary - monthwise   - for
+product & service seperately - will include the following fields:
+Bill No.  ,   Bill date , customer name   , amount , tax amount,
+
+c. Bill No. to be generated automatically
+
+d. In service bill transaction form - please show list of bill in the
+bottom in the last bill at first format.  Same for product bill
+transaction
+
+"SELECT * FROM bookings WHERE date(date) between '$fromdate' and '$todate'";
+
+
+  From date: <input type="text" id="fromdate" value="" onChange="showUser()">   To date: <input type="text" id="todate" value="" onChange="showUser()"> 
+
+function showUser()
+{
+
+var fromdate = $( "#fromdate" ).val();
+var todate= $( "#todate" ).val();
+
+// rest of your code:
+
+
+
+
+}
